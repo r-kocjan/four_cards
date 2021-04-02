@@ -56,11 +56,23 @@ h1{
     flex-direction: column;
     text-align: left;
     gap: 1rem;
-    border-top: 4px solid var(--cyan);
+    
 }
 .card img{
     width: 7rem;
     align-self: flex-end;
+}
+.card-1{
+    border-top: 4px solid var(--cyan);
+}
+.card-2{
+    border-top: 4px solid var(--red);
+}
+.card-3{
+    border-top: 4px solid var(--orange);
+}
+.card-4{
+    border-top: 4px solid var(--blue);
 }
 
 
