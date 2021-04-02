@@ -1,0 +1,28 @@
+:root{
+    --red: rgb(234, 83, 83);
+    --cyan: rgb(69, 211, 211);
+    --orange: rgb(252, 175, 74);
+    --blue: rgb(84, 158, 242);
+
+    --dark-blue: rgb(76, 78, 97);
+    --gray-blue: rgb(163, 165, 174);
+    --light-gray: rgb(250, 250, 250);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+
+
+
+
+
