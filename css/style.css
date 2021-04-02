@@ -39,15 +39,15 @@ h1{
     margin-bottom: 2rem;
 }
 .paragraph{
-    
     width: 85%;
     margin: 3rem auto;
 }
+
 .cards{
     margin-top: 5rem;
 }
 .card{
-    padding: 2rem;
+    padding: 2.5rem;
     margin-top: 5rem;
     border-radius: 10px;
     box-shadow: -1rem 1rem 5rem rgba(0,0,0,.15);
@@ -56,11 +56,17 @@ h1{
     flex-direction: column;
     text-align: left;
     gap: 1rem;
+    position: relative;
+}
+.card p{
     
+    width: 80%;
 }
 .card img{
     width: 7rem;
-    align-self: flex-end;
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
 }
 .card-1{
     border-top: 4px solid var(--cyan);
@@ -77,6 +83,34 @@ h1{
 
 
 
+@media (min-width: 1200px){
+    h1,h2{
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+    .paragraph{
+        width: 32%;
+    }
+    .cards{
+        width: 60vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        align-items: center;
+    }
+    .container{
+        width: 33.33333333%;
+    }
+    .card{
+        flex: 1 0;
+        height: 25rem;
+        
+    }
+    
+}
 
 
 
